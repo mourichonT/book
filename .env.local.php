@@ -13,7 +13,7 @@ return array (
   'PHP_PORT' => '9000',
   'PHP_XDEBUG_MODE' => 'off',
   'PHP_XDEBUG_CLIENT_PORT' => '5902',
-  'PHP_XDEBUG_CLIENT_HOST' => '127.0.0.1 symfony.localhost',
+  'PHP_XDEBUG_CLIENT_HOST' => 'host.docker.internal',
   'PHPMYADMIN_PORT' => '8080',
   'NGINX_PORT' => '80',
   'NGINX_SYMFONY_SERVER_NAME' => 'symfony.localhost',
